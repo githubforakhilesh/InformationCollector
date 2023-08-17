@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Print_Screen">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:id="@+id/print_backbutton"
+                android:src="@drawable/arrow_back"
+                android:layout_height="30dp">
+            </androidx.appcompat.widget.AppCompatImageView>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:text="Print Details"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                </androidx.appcompat.widget.AppCompatTextView>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:id="@+id/print_textbox"
+            android:text="Print Details"
+            android:background="@drawable/edit_text_background"
+            android:backgroundTint="#1d1d1d"
+            android:layout_height="50dp">
+        </androidx.appcompat.widget.AppCompatTextView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
